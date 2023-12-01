@@ -1,9 +1,10 @@
 import React from 'react'
-
+import Link from 'next/link'
 export default function page() {
   return (
     <div>
-      Service 1
+    <h1>Service 1</h1>
+    <Link href = "/">Home</Link>
     </div>
   )
 }
