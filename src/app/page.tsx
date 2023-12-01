@@ -6,6 +6,7 @@ export default function Home() {
   Hello Wasam
   <Link href="/contact" >Contact</Link>
   <Link href="/contact/about" >About</Link>
+  <Link href="/users" >Users</Link>
  </div>
   )
 }

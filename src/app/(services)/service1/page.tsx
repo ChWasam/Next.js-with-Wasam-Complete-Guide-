@@ -1,15 +1,13 @@
+import React from 'react'
 
-import Image from 'next/image'
-import Link from 'next/link'
-export default function Home () {
+export default function page() {
   return (
-<div>
-
-Service 1
-
-</div>
+    <div>
+      Service 1
+    </div>
   )
 }
+
 
 
 // aupar return me koi javascript ka code likhna ha to wo curly brackets me likhna ha 
