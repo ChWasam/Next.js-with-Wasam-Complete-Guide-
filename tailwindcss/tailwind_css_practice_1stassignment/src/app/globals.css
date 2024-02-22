@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+/**
+ * Use this directive to control where Tailwind injects the hover, focus,
+ * responsive, dark mode, and other variants of each class.
+ *
+ * If omitted, Tailwind will append these classes to the very end of
+ * your stylesheet by default.
+ */
+ 
+/* All these are Known as tailwind css directives */
+
+/* Add the Tailwind CSS directives that Tailwind will use to inject its generated styles to a Global Stylesheet in your application, for example: from the creators of Next.js. */
+
+/* Inside the root layout(app/layout.tsx), import the globals.css stylesheet to apply the styles to every route in your application. */
+
+/* After installing Tailwind CSS and adding the global styles, you can use Tailwind's utility classes in your application. */
+
+
+
+/* Here we’re importing Tailwind in three layers. The base contains Tailwind’s
+reset classes, components is a small layer containing Tailwind’s component
+class, and most of what I’ll be talking about in this book is in the utilities layer.
+The layers become important as you customize Tailwind—if you want to
+compose your classes with Tailwind modifiers, the classes need to be defined
+before the utilities layer. */
